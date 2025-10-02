@@ -12,7 +12,6 @@ URL: https://github.com/asetzhumatai/LabAPI
 BugReports: https://github.com/asetzhumatai/LabAPI/issues
 Imports:
     httr2,
-    jsonlite,
     tibble,
     dplyr,
     rlang
