@@ -9,3 +9,14 @@ Encoding: UTF-8
 LazyData: true
 URL: https://github.com/asetzhumatai/LabAPI
 BugReports: https://github.com/asetzhumatai/LabAPI/issues
+Imports:
+    httr2,
+    jsonlite,
+    tibble,
+    dplyr,
+    rlang
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
