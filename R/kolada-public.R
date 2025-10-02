@@ -48,7 +48,6 @@ kld_values <- function(kpi, municipality, year) {
 }
 
 
-kld_values("N00951", "0180", 2019)
 
 
 
