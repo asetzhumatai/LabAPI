@@ -48,4 +48,18 @@ df_multi
 
 ```
 
+## 4. Use Shiny UI
 
+run this line 
+
+```{r}
+shiny::runGitHub("Lab5_shiny", "rnab09")
+```
+
+```{r}
+#search KPIs by Title: Personalkostnader, kr/inv
+#select KPI
+#Select Municipality
+#select the range of years
+#click fetch data
+```
