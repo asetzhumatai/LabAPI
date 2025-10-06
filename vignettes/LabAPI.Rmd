@@ -21,7 +21,7 @@ Students: Aset Zhumatai, Pranjal Saha Arnab
 
 ## 1. Get KPI Metadata
 ```{r}
-kpis <- kld_kpis(title = "Population", per_page = 5)
+kpis <- kld_kpis(title = "Personalkostnader, kr/inv", per_page = 5)
 kpis
 ```
 
