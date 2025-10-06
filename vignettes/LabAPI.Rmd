@@ -56,10 +56,8 @@ run this line
 shiny::runGitHub("Lab5_shiny", "rnab09")
 ```
 
-```{r}
-#search KPIs by Title: Personalkostnader, kr/inv
-#select KPI
-#Select Municipality
-#select the range of years
-#click fetch data
-```
+search KPIs by Title: Personalkostnader, kr/inv
+select KPI
+Select Municipality
+select the range of years
+click fetch data
