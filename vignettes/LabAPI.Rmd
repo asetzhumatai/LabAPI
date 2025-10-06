@@ -1,0 +1,51 @@
+---
+title: "LabAPI Package to Access the Kolada Database"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Using LabAPI to Access the Kolada Database}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(LabAPI)
+```
+Students: Aset Zhumatai, Pranjal Saha Arnab
+
+## 1. Get KPI Metadata
+```{r}
+kpis <- kld_kpis(title = "Population", per_page = 5)
+kpis
+```
+
+## 2. Get municipality metadata
+```{r}
+munis <- kld_municipalities(per_page = 5)
+munis
+```
+
+## 3. Get values for a KPI and municipality
+
+retrieve population data (N00951) for Stockholm (0180) in 2020:
+
+```{r}
+df <- kld_values("N00951", "0180", 2020)
+df
+```
+
+If you have a range of years implemented:
+
+```{r}
+df_multi <- kld_values("N00951", "0180", 2018:2021)
+df_multi
+
+```
+
+
