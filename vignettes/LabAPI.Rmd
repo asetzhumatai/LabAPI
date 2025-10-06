@@ -48,4 +48,12 @@ df_multi
 
 ```
 
+## 4.Interactive Shiny Application
 
+To interactively analyze the Kolada data using the LabAPI functions, a Shiny application is available on GitHub. This app allows searching for KPIs (using Swedish terms), selecting municipalities, choosing year ranges, and fetching data dynamically.
+You can run the app directly from GitHub using the following command in R:
+
+```{r, eval=FALSE}
+shiny::runGitHub("Lab5_shiny","rnab09")
+```
+Note: The KPI search in the app requires at least 3 characters and uses Swedish titles from the Kolada API (e.g., "befolkning" for population-related metrics)
